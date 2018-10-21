@@ -23,6 +23,9 @@ print(type(result['tags'][0]))
 #for t in range(len(result['tags'])):
 #    result['tags'][t] = result['tags'][t].encode("utf8")
 print(type(result['tags'][0]))
+
+
+
 url1 = 'https://movie.douban.com/j/search_tags?type=movie'
 # 定义一个列表存储电影的基本信息
 movies = []
